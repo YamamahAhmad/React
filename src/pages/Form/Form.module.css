@@ -1,0 +1,45 @@
+.form {
+  background-color: white;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form button {
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 14px;
+  margin: 0;
+}
+
+.buttonDisabled {
+opacity: 0.5;
+}

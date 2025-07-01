@@ -1,0 +1,50 @@
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  position: relative;
+  padding-top: 30px;
+}
+
+.card h3,
+.card p {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.card p {
+  font-size: 13px;
+}
+
+.image {
+  height: 150px;
+  width: 100%;
+}
+
+.iconsContainer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.editIcon,
+.deleteIcon {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 18px;
+  color: red;
+}
+
+.editIcon:hover,
+.deleteIcon:hover {
+  transform: scale(1.2);
+}
+
+.editIcon {
+  text-decoration: none;
+}
+
+.cardActions {
+  margin-top: auto;
+}
