@@ -1,7 +1,8 @@
 .form {
+  width: 80%;
+  max-width: 900px;
   background-color: white;
   padding: 20px;
-  max-width: 600px;
   margin: 20px auto;
   border: 1px solid #ddd;
   display: flex;
@@ -41,5 +42,5 @@
 }
 
 .buttonDisabled {
-opacity: 0.5;
+  opacity: 0.5;
 }
